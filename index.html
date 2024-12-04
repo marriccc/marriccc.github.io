@@ -67,7 +67,10 @@
             </script>
   </div>
   <h1>Bing Search Widget</h1>
-  <script type="text/javascript" src="https://www.bing.com/widget/bootstrap.js" data-type="search" data-form="small"></script>
+    <form action="https://www.bing.com/search" method="GET" target="_blank">
+        <input type="text" name="q" placeholder="Search Bing..." required>
+        <button type="submit">Search</button>
+    </form>
   
   <h1> reCAPTCHA V3 simulation </h1>
   <p>This is just a picture, which should be unblocked, if reCAPTCHA V3 consent is given.</p>
